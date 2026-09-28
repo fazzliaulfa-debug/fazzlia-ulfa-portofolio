@@ -582,7 +582,7 @@ a {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
     gap: 30px;
 }
@@ -673,10 +673,10 @@ a {
 }
 
 .contact-grid {
-    max-width: 1000px; /* Diperlebar sedikit agar muat 3 kolom */
+    max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Diubah menjadi 3 kolom berdampingan */
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
